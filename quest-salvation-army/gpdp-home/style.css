@@ -12,17 +12,19 @@ body {
 }
 
 button {
-    background-color: #F4D8D8;
+    
+    background-color: #FAFAFA;
+    border-style: none;
+
+    height: 60px;
+
     border-radius: 10px;
-    border-style: solid;
     border-width: 1px;
-    border-color: #B94847;
+    border-color:#B94847;
+  
 
-
-    width: 210px;
-    height: 70px;
     margin-top: 50px;
-    margin-left: 130px;
+ 
     
 }
 
@@ -42,7 +44,7 @@ h3 {
 
 
 li {
-    font-size: 18px;
+    font-size: 16px;
 
     list-style-type: none;
     margin-bottom: 10px;
@@ -61,28 +63,28 @@ p {
     height: 80px;
     font-size: 18px;
 
-    padding-top: 40px;
+    padding-top: 10px;
     
 }
 
 .gpd-program {
-    float:left;
-    width: 175px;
+    float: left;
     padding-left: 10px;
     
-    margin-top: 10px;
+    margin-top: 50px;
     
 }
 
 .veteran-resources {
     float:right;
-    margin-top: 10px;
+    margin-top: 50px;
+    opacity: 0.5;
     
 }
 
 .red-line-marker {
     background-color: #C22A3A;
-    width: 188px;
+    width: 170px;
     height: 5px;
 
 }
@@ -95,7 +97,8 @@ p {
 /* class design: application eligibility elements */
 .apply-now {
 
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 575;
     color: #B94847;
     padding-right: 60px;
 
@@ -117,8 +120,8 @@ p {
 
 .right-arrow {
     position: absolute;
-    padding-left: 275px;
+    padding-left: 200px;
     
-    margin-top: 445px;
+    margin-top: 428px;
     
 }
