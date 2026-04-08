@@ -1,0 +1,126 @@
+/* type design  */
+body {
+    width: 375px;
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    color: #fafafa;
+}
+
+
+/* class design: header elements */
+.main-header {
+    height: 115px;
+    width: 375px;
+    
+    background-color: #244A6B;
+}
+
+.header-txt {
+    font-weight: 400px;
+    font-size: 40px;
+
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+/* class design: main navigation elements */
+.nav-box {
+    margin-top: 525px;
+    height: 135px;
+
+    font-size: 14px;
+
+}
+
+.nav-container {
+    height: 95px;
+    background-color: #244A6B;
+
+    
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: start;
+}
+
+.home-icon {
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.mssg-icon {
+    padding-top: 12px;
+    padding-left: 12px;
+
+    position: relative;
+    display: inline-block;
+}
+
+.notification-dot {
+    position: absolute;
+    left: 40px;
+}
+
+.calendar-icon {
+    padding-top: 16px;
+    padding-left: 130px;
+}
+
+.profile-icon {
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.icon-labels {
+    display: flex;
+    justify-content: start;
+}
+
+.label-home {
+    padding-left: 15px;
+}
+
+.label-mssgs {
+    padding-left: 15px;
+}
+
+.label-schedule {
+    padding-left: 115px;
+}
+
+.label-profile {
+    padding-left: 15px;
+}
+
+/* class design:" check-in button elements*/
+.bttn-check-in {
+    display: flex;
+    justify-content: start;
+    padding-left: 85px;
+
+}
+.background-blue {
+   position: absolute;
+   top: 585px;
+   padding-left: 5px;
+    
+    
+}
+.background-red {
+    position: absolute;
+    padding-left: 18px;
+    top: 598px;
+}
+
+.barcode-icon {
+    position:absolute;
+    top: 650px;
+    padding-left: 80px;
+}
+
+.label-check-in {
+    position: absolute;
+    top: 709px;
+    padding-left: 77px;
+}
